@@ -18,7 +18,7 @@ export class GifsService {
    }
 
   get tagsHistory() {
-    return [...this._tagsHistory]; //[...]crear un referencia del objeto
+    return [...this._tagsHistory]; //[...]crear una referencia del objeto
   }
 
   private organizeHistory( tag: string ){
